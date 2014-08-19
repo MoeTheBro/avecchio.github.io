@@ -4,7 +4,16 @@ email: au.vecchio@gmail.com
 description: ""
 baseurl: ""
 url: "http://github.com/avecchio"
-
+extern_menu:
+  - name: github
+    src: /assets/images/social/
+    url: http://www.google.com
+  - name: bitbucket
+    src: /assets/images/social/
+    url: http://www.google.com
+  - name: rss
+    src: /assets/images/social/
+    url: http://www.google.com
 # Build settings
 markdown: kramdown
 permalink: pretty

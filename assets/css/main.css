@@ -163,6 +163,19 @@ a:visited { color: #205caa; }
 }
 
 
+/* Icon styles */
+/* ----------------------------------------------------------*/
+
+img.social{height:32px;}
+.facebook{background-color:#3B5998;}
+.twitter{background-color:#00ACED;}
+.googleplus{background-color:#D14836;}
+.linkedin{background-color:#007FB1;}
+.rdio{background-color:#006ED2;}
+.reddit{background-color:#FF4500;}
+.skype{background-color:#00AFF0;}
+.steam{background-color:#000000;}
+
 /* Post styles */
 /* ----------------------------------------------------------*/
 

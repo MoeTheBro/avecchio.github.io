@@ -20,6 +20,9 @@
         {% for page in site.pages %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endfor %}
+        {% for link in site.extern_menu%}
+          <a class="page-link" href="{{ link.url }}"><img src="{{ link.src }}" alt="{{ link.name }}"/></a>
+        {% endfor %}        
       </div>
     </nav>
 
