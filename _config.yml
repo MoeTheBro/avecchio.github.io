@@ -1,9 +1,9 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Avecchio Centcom
+email: au.vecchio@gmail.com
 description: ""
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://github.com/avecchio"
 
 # Build settings
 markdown: kramdown

@@ -5,10 +5,12 @@ permalink: /projects/
 ---
 
 ####Contributions
+<!--
 1. [GnuRadio](https://github.com/gnuradio/gnuradio)
 	- Fixed Swig files
 2. [PointCloud](https://github.com/PointCloudLibrary/pcl)
 	- Built Swig files to support multi-language wrappers
+-->
 
 - - -
 
@@ -26,7 +28,10 @@ permalink: /projects/
 
 ####Rails
 1. [Citadel](https://github.com/avecchio/citadel) Web gui for the [Dagger](https://github.com/avecchio/dagger) gem
+
+<!--
 2. [Scholar](http://example.net/)
+-->
 
 - - -
 
@@ -39,15 +44,22 @@ permalink: /projects/
 - - -
 
 ####Android
+
+<!--
 1. [Mouse](https://bitbucket.org/sparkysglitch/)
 2. [Pointcloud](https://github.com/avecchio/pcl-android)
 3. [GnuRadio](https://github.com/avecchio/gnuradio-android)
+-->
+
 - - -
 
 ####Arduino
+
+<!--
 1. [Motors](https://bitbucket.org/sparkysglitch/)
 2. [Sensors](https://bitbucket.org/sparkysglitch/)
 3. [Camera](https://bitbucket.org/sparkysglitch/)
+-->
 
 - - -
 
