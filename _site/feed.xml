@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Avecchio Centcom</title>
+    <title>Austin Vecchio</title>
     <description></description>
     <link>http://github.com/avecchio/</link>
     <atom:link href="http://github.com/avecchio/feed.xml" rel="self" type="application/rss+xml" />

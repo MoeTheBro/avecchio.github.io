@@ -166,7 +166,11 @@ a:visited { color: #205caa; }
 /* Icon styles */
 /* ----------------------------------------------------------*/
 
-img.social{height:32px;}
+img.social{height:32px; width:32px;}
+img.extern{height:32px; width:32px;}
+.github{background-color:#4183C4;}
+.bitbucket{background-color:#205081;}
+.rss{background-color:#FF8300;}
 .facebook{background-color:#3B5998;}
 .twitter{background-color:#00ACED;}
 .googleplus{background-color:#D14836;}

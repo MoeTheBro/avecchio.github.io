@@ -1,19 +1,19 @@
 # Site settings
-title: Avecchio Centcom
+title: Austin Vecchio
 email: au.vecchio@gmail.com
 description: ""
 baseurl: ""
 url: "http://github.com/avecchio"
 extern_menu:
   - name: github
-    src: /assets/images/social/
-    url: http://www.google.com
+    src: /assets/images/social/github/github-128.png
+    url: http://github.com
   - name: bitbucket
-    src: /assets/images/social/
-    url: http://www.google.com
+    src: /assets/images/social/bitbucket/bitbucket-128.png
+    url: http://bitbucket.org/sparkysglitch
   - name: rss
-    src: /assets/images/social/
-    url: http://www.google.com
+    src: /assets/images/social/rss/rss-128.png
+    url: /feed.xml
 # Build settings
 markdown: kramdown
 permalink: pretty
