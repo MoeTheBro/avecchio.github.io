@@ -4,6 +4,10 @@ email: au.vecchio@gmail.com
 description: ""
 baseurl: ""
 url: "http://github.com/avecchio"
+collections:
+  docs:
+    output: true
+    permalink: /files/:path/
 extern_menu:
   - name: github
     src: /assets/images/social/github/github-128.png

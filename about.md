@@ -4,10 +4,15 @@ title: About
 permalink: /about/
 ---
 
-[Alt text](/path/to/img.jpg "Optional title")
+{:.center .logo}
+![Alt text](/assets/logos/kulogo.png )
+![Alt text](/assets/logos/btplogo.png )
 
+{:.center}
 |:--:|:--:|:--:|
-|[Alt text]( "Optional title")|[Alt text](/path/to/img.jpg "Optional title")|[Alt text](/path/to/img.jpg "Optional title")|
-|[Alt text]( "Optional title")|[Alt text](/path/to/img.jpg "Optional title")|[Alt text](/path/to/img.jpg "Optional title")|
-|[Alt text]( "Optional title")|[Alt text](/path/to/img.jpg "Optional title")|[Alt text](/path/to/img.jpg "Optional title")|
+|![Alt text]( /path/to/img.jpg )|![Alt text](/path/to/img.jpg )|![Alt text](/path/to/img.jpg )|
+|![Alt text]( /path/to/img.jpg )|![Alt text](/path/to/img.jpg )|![Alt text](/path/to/img.jpg )|
+|![Alt text]( /path/to/img.jpg )|![Alt text](/path/to/img.jpg )|![Alt text](/path/to/img.jpg )|
 
+{:.center}
+Hello world

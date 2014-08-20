@@ -5,9 +5,10 @@ permalink: /projects/
 ---
 
 ####Contributions
-<!--
 1. [GnuRadio](https://github.com/gnuradio/gnuradio)
-	- Fixed Swig files
+	- Fixed Swig files to allow creation of wrappers in other languages
+
+<!--
 2. [PointCloud](https://github.com/PointCloudLibrary/pcl)
 	- Built Swig files to support multi-language wrappers
 -->
@@ -15,12 +16,12 @@ permalink: /projects/
 - - -
 
 ####Jekyll
-1. [Github Page](https://avecchio.github.io)
+1. [Github Page](https://github.com/avecchio/avecchio.github.io) Hosted by github, powered by jekyll.
 
 - - - 
 
-####Gems
-1. [Dagger](https://github.com/avecchio/dagger)
+####Rubygems
+1. [Dagger](https://github.com/avecchio/dagger) An interface to [fog](http://fog.io), [chef](), and [puppet]()
 2. [Keytool](https://github.com/avecchio/keytool) Authentication and Administration for Sinatra
 3. [Simplemodel](https://github.com/avecchio/simplemodel) Orm gem supporting many types of databases
 
@@ -36,10 +37,10 @@ permalink: /projects/
 - - -
 
 ####Sinatra
-1. [Sinatra Base](https://github.com/sinatra_base)
-2. [Rubygraph](https://github.com/avecchio/rubygraph)
-3. [WatchDog](https://github.com/avecchio/watchdog)
-4. [BuzzCloud](https://github.com/avecchio/buzzcloud)
+1. [Sinatra Base](https://github.com/sinatra_base) A template sinatra app base for my dev projects
+2. [Rubygraph](https://github.com/avecchio/rubygraph) An app to show gem dependencies
+3. [WatchDog](https://github.com/avecchio/watchdog) A watchdog to monitor services
+4. [BuzzCloud](https://github.com/avecchio/buzzcloud) A fun app using [d3]() and [hadoop]() to poke fun at buzzwords listed in actual documents
 
 - - -
 
@@ -64,7 +65,7 @@ permalink: /projects/
 - - -
 
 ####Chef Recipes
-1. [Swiss](https://github.com/avecchio/swiss)
+1. [Swiss](https://github.com/avecchio/swiss) A template chef recipe for sinatra and rails apps using [foreman]() and [whenever]() based off of the [pophealth]() recipe
 2. [RubyGraph](https://github.com/avecchio/rubygraph-chef)
-3. [Watchdog](https://github.com/avecchio/watchdog-chef)
+3. [Watchdog](https://github.com/avecchio/watchdog-chef) 
 4. [BuzzCloud](https://github.com/avecchio/buzzcloud-chef)
