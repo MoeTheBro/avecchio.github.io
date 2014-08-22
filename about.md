@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 {:.center .logo}
-![Alt text](/assets/logos/kulogo.png )
-![Alt text](/assets/logos/btplogo.png )
+![Kettering University Logo](/assets/logos/kulogo.png )
+![Beta Theta Pi Logo](/assets/logos/btplogo.png )
 
 {:.center}
 |:--:|:--:|:--:|

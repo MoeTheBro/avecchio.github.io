@@ -11,7 +11,7 @@ collections:
 extern_menu:
   - name: github
     src: /assets/images/social/github/github-128.png
-    url: http://github.com
+    url: http://github.com/avecchio
   - name: bitbucket
     src: /assets/images/social/bitbucket/bitbucket-128.png
     url: http://bitbucket.org/sparkysglitch
