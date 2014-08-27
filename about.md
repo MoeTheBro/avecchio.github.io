@@ -14,5 +14,4 @@ permalink: /about/
 |![Alt text]( /path/to/img.jpg )|![Alt text](/path/to/img.jpg )|![Alt text](/path/to/img.jpg )|
 |![Alt text]( /path/to/img.jpg )|![Alt text](/path/to/img.jpg )|![Alt text](/path/to/img.jpg )|
 
-{:.center}
 Hello world

@@ -21,9 +21,11 @@ permalink: /projects/
 - - - 
 
 ####Rubygems
+<!--
 1. [Dagger](https://github.com/avecchio/dagger) An interface to [fog](http://fog.io), [chef](), and [puppet]()
-2. [Keytool](https://github.com/avecchio/keytool) Authentication and Administration for Sinatra
-3. [Simplemodel](https://github.com/avecchio/simplemodel) Orm gem supporting many types of databases
+-->
+1. [Keytool](https://github.com/avecchio/keytool) Authentication and Administration for Sinatra
+2. [Simplemodel](https://github.com/avecchio/simplemodel) Orm gem supporting many types of databases
 
 - - -
 
