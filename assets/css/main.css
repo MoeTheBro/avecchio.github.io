@@ -166,8 +166,9 @@ a:visited { color: #205caa; }
 /* Icon styles */
 /* ----------------------------------------------------------*/
 
-.logo img{height:256px;}
-img.social{height:32px; width:32px;}
+.logo img{height:128px;}
+a.social{height:32px; width:32px;}
+.social{height:32px; width:32px;}
 img.extern{height:32px; width:32px;}
 .github{background-color:#4183C4;}
 .bitbucket{background-color:#205081;}
