@@ -1,3 +1,7 @@
 source 'https://rubygems.org'
 gem 'jekyll'
+gem 'jekyll-localization'
+gem 'jekyll-rendering'
+gem 'jekyll-pagination'
+gem 'jekyll-tagging'
 gem 'whenever'

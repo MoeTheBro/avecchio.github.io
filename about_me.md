@@ -39,8 +39,6 @@ My experience started out in high school when I joined FRC [Team 79 Krunch](http
 
  and moved to [The Mech Warriors](http://team573.com)
 
-#### Check out all of the wonderful resources!
-
 - - -
 
 ### [Kettering University](http://kettering.edu)

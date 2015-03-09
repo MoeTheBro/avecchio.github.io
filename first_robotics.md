@@ -4,25 +4,51 @@ title: First Robotics
 permalink: /first_robotics/
 ---
 
-# Intro to Robotics
+#### Information
 
-## Intro to Mechanical Engineering & Machine Training
+- [Notes]() This is just a list of notes to keep in mind, or suggestions for FIRST during the season. WARNING: Some of these are rants.
 
-#### Metal vs Plastic
+#### Robotics
 
-#### Stress
+- [Intro to Robotics]()
+- [Drive Systems]()
+- [Sensors]()
+- []()
 
-#### CAD
+- - -
 
-#### CNC Mill
+#### Mechanical Engineering & Machine Training
 
-## Intro to Electrical Engineering & The Control System
+- [Newtonian Mechanics]()
+- [Material Science]()
+- [Tools]()
+- [Mills]()
+- [Lathe]()
+- [CNC Mill]()
+- [Pneumatics]()
 
-#### Ohm's Law
+- - -
 
-#### Multimeter
+#### Electrical Engineering & The Control System
 
-#### PWM vs CAN
+- [Intro To Electrical Engineering]()
+- [Ohm's Law]()
+- [Wiring]()
+- [Multimeter]()
+- [Gauges]()
+
+- - -
+
+#### Software Engineering & Best Practices
+
+- [Intro to Networking]()
+- [Intro to Programming]()
+- [Version Control]()
+- [PWM & CAN Controllers]()
+- [Vision Processing]()
+- [Best Coding Practices]()
+
+- - -
 
 Lets start with the similarities, both of them allow for the control of the output voltage of a speed controller.
 
@@ -34,18 +60,6 @@ The differences are listed below:
 These are just some examples of the differences, there are probably more I am forgetting.
 
 As for which one you should use, it depends a lot on what you plan to do and how much experience you have. If you just need to control motors and haven't had much experience in wiring FRC robots and building their control systems, then I would suggest using PWM. If you have time to experiment, wanting feedback from the controller, wanting to have closed-loop control moved to the motor controller, or are willing to learn more complex systems, then CAN is a good choice.
-
-#### Sensors
-
-#### FRC Control System
-
-## Intro to Software Engineering & Best Practices
-
-#### Introduction to Programming
-
-#### Pseudo Code
-
-#### Comments
 
 #### Version Control
 https://www.youtube.com/watch?v=gY2JwRfin1M
