@@ -13,7 +13,6 @@ permalink: /first_robotics/
 - [Intro to Robotics]()
 - [Drive Systems]()
 - [Sensors]()
-- []()
 
 - - -
 
