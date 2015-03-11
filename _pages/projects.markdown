@@ -4,18 +4,13 @@ title: Projects
 permalink: /projects/
 ---
 
-# This page is currently under construction
-## All github projects are currently being cleaned up.
-
 
 ####Contributions
 
-<!--
 1. [GnuRadio](https://github.com/gnuradio/gnuradio)
 	- Fixed Swig files to allow creation of wrappers in other languages
 2. [PointCloud](https://github.com/PointCloudLibrary/pcl)
 	- Built Swig files to support multi-language wrappers
--->
 
 - - -
 
@@ -25,17 +20,15 @@ permalink: /projects/
 - - - 
 
 ####Ruby Gems
-<!--
 1. [Dagger](https://github.com/avecchio/dagger) An interface to [fog](http://fog.io), [chef](), and [puppet]()
--->
-1. [Keytool](https://github.com/avecchio/keytool) Authentication and Administration for Sinatra
-2. [Dock](https://github.com/avecchio/dock) ORM supporting multiple databases across the ruby framework.
+2. [Keytool](https://github.com/avecchio/keytool) Authentication and Administration for Sinatra
+3. [Dock](https://github.com/avecchio/dock) ORM supporting multiple databases across the ruby framework.
 
 - - -
 
 ####Rails
 1. [Citadel](https://github.com/avecchio/citadel) Web gui for the [Dagger](https://github.com/avecchio/dagger) gem
-
+2. [RobotLabs](https://github.com/avecchio/robotlabs)
 - - -
 
 ####Sinatra
@@ -48,30 +41,23 @@ permalink: /projects/
 
 ####First Robotics
 1. [Swerve Drive](https://github.com/avecchio/frc_swerve) 
-
-<!--
-1. [](https://github.com/avecchio/)
--->
+2. [A](https://github.com/avecchio/)
 
 - - -
 
 ####Android
 
-<!--
 1. [Mouse](https://bitbucket.org/sparkysglitch/)
 2. [Pointcloud](https://github.com/avecchio/pcl-android)
 3. [GnuRadio](https://github.com/avecchio/gnuradio-android)
--->
 
 - - -
 
 ####Arduino
 
-<!--
 1. [Motors](https://bitbucket.org/sparkysglitch/)
 2. [Sensors](https://bitbucket.org/sparkysglitch/)
 3. [Camera](https://bitbucket.org/sparkysglitch/)
--->
 
 - - -
 
@@ -82,3 +68,15 @@ permalink: /projects/
 4. [RubyGraph](https://github.com/avecchio/rubygraph-chef)
 5. [Watchdog](https://github.com/avecchio/watchdog-chef) 
 6. [BuzzCloud](https://github.com/avecchio/buzzcloud-chef)
+
+- - -
+
+####Web
+1. [ContextMenu]()
+2. [SpyGlass]()
+
+- - -
+
+####Other
+1. [DotFiles]()
+5. []()
