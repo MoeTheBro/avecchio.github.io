@@ -4,20 +4,7 @@ email: au.vecchio@gmail.com
 description: ""
 baseurl: ""
 url: "http://github.com/avecchio"
-collections:
-  docs:
-    output: true
-    permalink: /files/:path/
-extern_menu:
-  - name: github
-    src: /assets/images/social/github/github-128.png
-    url: http://github.com/avecchio
-  - name: bitbucket
-    src: /assets/images/social/bitbucket/bitbucket-128.png
-    url: http://bitbucket.org/sparkysglitch
-  - name: rss
-    src: /assets/images/social/rss/rss-128.png
-    url: /feed.xml
+
 # Build settings
-markdown: kramdown
-permalink: pretty
+include: ['_pages']
+relative_permalinks: false

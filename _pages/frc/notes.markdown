@@ -1,3 +1,8 @@
+---
+layout: page
+title: Notes
+permalink: /frc/notes.html
+---
 # Notes and Guidelines
 
 ### Keeping It Simple
