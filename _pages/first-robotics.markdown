@@ -1,7 +1,7 @@
 ---
 layout: page
 title: First Robotics
-permalink: /first_robotics/
+permalink: /frc/
 ---
 
 #### Information
