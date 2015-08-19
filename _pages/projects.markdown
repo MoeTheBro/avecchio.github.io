@@ -20,6 +20,7 @@ permalink: /projects/
 
 ####Ruby Gems
 1. [Slip](https://github.com/avecchio/slip) A ruby proxy that can add script tags to the page
+
 <!--
 1. [Dagger](https://github.com/avecchio/dagger) An interface to [fog](http://fog.io), [chef](), and [puppet]()
 2. [Keytool](https://github.com/avecchio/keytool) Authentication and Administration for Sinatra
