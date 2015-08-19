@@ -4,27 +4,31 @@ title: Projects
 permalink: /projects/
 ---
 
-
 ####Contributions
-
+<!--
 1. [GnuRadio](https://github.com/gnuradio/gnuradio)
 	- Fixed Swig files to allow creation of wrappers in other languages
 2. [PointCloud](https://github.com/PointCloudLibrary/pcl)
 	- Built Swig files to support multi-language wrappers
-
+-->
 - - -
 
 ####Jekyll
 1. [Github Page](https://github.com/avecchio/avecchio.github.io) Hosted by github, powered by jekyll.
 
-- - - 
+- - -
 
 ####Ruby Gems
+1. [Slip](https://github.com/avecchio/slip) A ruby proxy that can add script tags to the page
+<!--
 1. [Dagger](https://github.com/avecchio/dagger) An interface to [fog](http://fog.io), [chef](), and [puppet]()
 2. [Keytool](https://github.com/avecchio/keytool) Authentication and Administration for Sinatra
 3. [Dock](https://github.com/avecchio/dock) ORM supporting multiple databases across the ruby framework.
+-->
 
 - - -
+
+<!--
 
 ####Rails
 1. [Citadel](https://github.com/avecchio/citadel) Web gui for the [Dagger](https://github.com/avecchio/dagger) gem
@@ -40,7 +44,7 @@ permalink: /projects/
 - - -
 
 ####First Robotics
-1. [Swerve Drive](https://github.com/avecchio/frc_swerve) 
+1. [Swerve Drive](https://github.com/avecchio/frc_swerve)
 2. [A](https://github.com/avecchio/)
 
 - - -
@@ -63,20 +67,23 @@ permalink: /projects/
 
 ####Chef Recipes
 1. [RobotLabs](https://github.com/avecchio/robotlabs) A chef cookbook for launching the robotlabs framework.
-2. [Scholar](https://github.com/avecchio/scholar//example.net/) A chef cookbook for launching the scholar framework. 
+2. [Scholar](https://github.com/avecchio/scholar//example.net/) A chef cookbook for launching the scholar framework.
 3. [Swiss](https://github.com/avecchio/swiss) A template chef recipe for sinatra and rails apps using [foreman]() and [whenever]() based off of the [pophealth]() recipe
 4. [RubyGraph](https://github.com/avecchio/rubygraph-chef)
-5. [Watchdog](https://github.com/avecchio/watchdog-chef) 
+5. [Watchdog](https://github.com/avecchio/watchdog-chef)
 6. [BuzzCloud](https://github.com/avecchio/buzzcloud-chef)
+
+-->
 
 - - -
 
 ####Web
-1. [ContextMenu]()
-2. [SpyGlass]()
+1. [SpyGlass](https://github.com/avecchio/spyglass) Javascript DOM inspector
+2. [ContextMenu](https://github.com/avecchio/contextmenu) Javascript context menu
 
 - - -
 
+
 ####Other
-1. [DotFiles]()
-5. []()
+1. [Resume](https://github.com/avecchio/resume) My resume
+2. [Vortex](https://github.com/avecchio/vortex) A couple of scripts to turn kali into a development environment
