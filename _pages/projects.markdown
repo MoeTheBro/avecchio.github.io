@@ -19,7 +19,8 @@ permalink: /projects/
 - - -
 
 ####Ruby Gems
-1. [Slip](https://github.com/avecchio/slip) A ruby proxy that can add script tags to the page
+1. [Dream](https://github.com/avecchio/dream) A ruby logging platform for rails apps and rubygems
+2. [Telepathy](https://github.com/avecchio/telepathy) A ruby proxy that can add script tags to the page
 
 <!--
 1. [Dagger](https://github.com/avecchio/dagger) An interface to [fog](http://fog.io), [chef](), and [puppet]()
