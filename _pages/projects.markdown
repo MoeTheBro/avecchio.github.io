@@ -21,7 +21,9 @@ permalink: /projects/
 ####Ruby Gems
 1. [Dream](https://github.com/avecchio/dream) A ruby logging platform for rails apps and rubygems
 2. [Telepathy](https://github.com/avecchio/telepathy) A ruby proxy that can add script tags to the page
-
+3. [Brute](https://github.com/avecchio/brute) A data generator
+4. [Slipspace](https://github.com/avecchio/slipspace) Ruby bindings for the [Citrus Framework](http://citrusframework.org)
+5. [Thunderstorm](https://github.com/avecchio/thunderstorm) Ruby bindings for [Apache Jmeter](http://jmeter.apache.org)
 <!--
 1. [Dagger](https://github.com/avecchio/dagger) An interface to [fog](http://fog.io), [chef](), and [puppet]()
 2. [Keytool](https://github.com/avecchio/keytool) Authentication and Administration for Sinatra
