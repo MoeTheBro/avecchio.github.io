@@ -24,11 +24,9 @@ permalink: /projects/
 3. [Brute](https://github.com/avecchio/brute) A data generator
 4. [Slipspace](https://github.com/avecchio/slipspace) Ruby bindings for the [Citrus Framework](http://citrusframework.org)
 5. [Thunderstorm](https://github.com/avecchio/thunderstorm) Ruby bindings for [Apache Jmeter](http://jmeter.apache.org)
-<!--
-1. [Dagger](https://github.com/avecchio/dagger) An interface to [fog](http://fog.io), [chef](), and [puppet]()
-2. [Keytool](https://github.com/avecchio/keytool) Authentication and Administration for Sinatra
-3. [Dock](https://github.com/avecchio/dock) ORM supporting multiple databases across the ruby framework.
--->
+6. [Dagger](https://github.com/avecchio/dagger) An interface to [fog](http://fog.io), [chef](), and [puppet]()
+7. [Keytool](https://github.com/avecchio/keytool) Authentication and Administration for Sinatra
+8. [Dock](https://github.com/avecchio/dock) ORM supporting multiple databases across the ruby framework.
 
 - - -
 
@@ -90,4 +88,5 @@ permalink: /projects/
 
 ####Other
 1. [Resume](https://github.com/avecchio/resume) My resume
-2. [Vortex](https://github.com/avecchio/vortex) A couple of scripts to turn kali into a development environment
+2. [Dotfiles](https://github.com/avecchio/dotfiles) Dotfiles
+3. [Vortex](https://github.com/avecchio/vortex) A couple of scripts to turn kali into a development environment
