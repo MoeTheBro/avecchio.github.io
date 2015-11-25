@@ -12,7 +12,7 @@ permalink: /vecchio/
 - - -
 
 ## Quick Bio
-[Resume](https://github.com/avecchio/resume)
+[Resume](https://cdn.rawgit.com/avecchio/resume/master/pdf/resume.pdf)
 
 
 - - -

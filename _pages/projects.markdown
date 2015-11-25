@@ -4,8 +4,9 @@ title: Projects
 permalink: /projects/
 ---
 
-####Contributions
 <!--
+
+####Contributions
 1. [GnuRadio](https://github.com/gnuradio/gnuradio)
 	- Fixed Swig files to allow creation of wrappers in other languages
 2. [PointCloud](https://github.com/PointCloudLibrary/pcl)
