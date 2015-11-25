@@ -4,8 +4,6 @@ title: Austin Vecchio
 permalink: /vecchio/
 ---
 
-[Resume](https://github.com/avecchio/resume)
-
 {:.center .logo}
 [![Beta Theta Pi Logo](/assets/logos/btplogo.png )](http://betathetapi.org)
 [![First Robotics Logo](/assets/logos/firstlogo.png )](http://usfirst.org)
@@ -14,6 +12,8 @@ permalink: /vecchio/
 - - -
 
 ## Quick Bio
+[Resume](https://github.com/avecchio/resume)
+
 
 - - -
 
