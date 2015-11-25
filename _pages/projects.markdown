@@ -87,6 +87,5 @@ permalink: /projects/
 
 
 ####Other
-1. [Resume](https://github.com/avecchio/resume) My resume
-2. [Dotfiles](https://github.com/avecchio/dotfiles) Dotfiles
-3. [Vortex](https://github.com/vortexlaboratory/vortex) A couple of scripts to turn kali into a development environment
+1. [Dotfiles](https://github.com/avecchio/dotfiles) Dotfiles
+2. [Vortex](https://github.com/vortexlaboratory/vortex) A couple of scripts to turn kali into a development environment
