@@ -4,6 +4,13 @@ title: Projects
 permalink: /projects/
 ---
 
+####Research
+<!--
+
+-->
+
+- - -
+
 ####Contributions
 <!--
 1. [GnuRadio](https://github.com/gnuradio/gnuradio)
@@ -19,14 +26,14 @@ permalink: /projects/
 - - -
 
 ####Ruby Gems
-1. [Dream](https://github.com/avecchio/dream) A ruby logging platform for rails apps and rubygems
-2. [Telepathy](https://github.com/avecchio/telepathy) A ruby proxy that can add script tags to the page
-3. [Brute](https://github.com/avecchio/brute) A data generator
-4. [Slipspace](https://github.com/avecchio/slipspace) Ruby bindings for the [Citrus Framework](http://citrusframework.org)
-5. [Thunderstorm](https://github.com/avecchio/thunderstorm) Ruby bindings for [Apache Jmeter](http://jmeter.apache.org)
-6. [Dagger](https://github.com/avecchio/dagger) An interface to [fog](http://fog.io), [chef](), and [puppet]()
-7. [Keytool](https://github.com/avecchio/keytool) Authentication and Administration for Sinatra
-8. [Dock](https://github.com/avecchio/dock) ORM supporting multiple databases across the ruby framework.
+1. [Avalanche](https://github.com/sprocket-games/avalanche) An advanced data generator
+2. [Dagger](https://github.com/sprocket-games/dagger) An interface to [fog](http://fog.io), [chef](), and [puppet]()
+3. [Dauntless](https://github.com/sprocket-games/dauntless)
+3. [Dock](https://github.com/sprocket-games/dock) ORM supporting multiple databases across the ruby framework.
+4. [Dream](https://github.com/avecchio/dream) A ruby logging platform for rails apps and rubygems
+5. [Slipspace](https://github.com/sprocket-games/slipspace) Ruby bindings for the [Citrus Framework](http://citrusframework.org)
+6. [Telepathy](https://github.com/avecchio/telepathy) A ruby proxy that can add script tags to the page
+7. [Thunderstorm](https://github.com/sprocket-games/thunderstorm) Ruby bindings for [Apache Jmeter](http://jmeter.apache.org)
 
 - - -
 
@@ -89,4 +96,4 @@ permalink: /projects/
 ####Other
 1. [Resume](https://github.com/avecchio/resume) My resume
 2. [Dotfiles](https://github.com/avecchio/dotfiles) Dotfiles
-3. [Vortex](https://github.com/avecchio/vortex) A couple of scripts to turn kali into a development environment
+3. [Vortex](https://github.com/vortexlaboratory/vortex) A couple of scripts to turn kali into a development environment
