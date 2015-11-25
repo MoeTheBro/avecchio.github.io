@@ -4,13 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-####Research
-<!--
-
--->
-
-- - -
-
 ####Contributions
 <!--
 1. [GnuRadio](https://github.com/gnuradio/gnuradio)
