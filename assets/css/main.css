@@ -167,7 +167,7 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 
 .logo img{height:128px;}
-a.social{height:32px; width:32px;}
+.social-grid{font-size: 0px;}
 .social{height:32px; width:32px;}
 img.extern{height:32px; width:32px;}
 .github{background-color:#4183C4;}
