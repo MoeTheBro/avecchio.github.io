@@ -166,29 +166,29 @@ a:visited { color: #205caa; }
 /* Icon styles */
 /* ----------------------------------------------------------*/
 
-.logo img{height:128px;}
 .social-grid{font-size: 0px;}
-.social{height:32px; width:32px;}
+img.logo{height:128px;}
 img.extern{height:32px; width:32px;}
-.github{background-color:#4183C4;}
-.bitbucket{background-color:#205081;}
-.rss{background-color:#FF8300;}
-.facebook {background-color:#3B5998}
-.twitter {background-color:#00ACED}
-.googleplus {background-color:#D14836}
-.linkedin {background-color:#007FB1}
-.youtube {background-color:#CD332D}
-.flickr {background-color:#0063DB}
-.spotify {background-color:#80B719}
-.deviantart {background-color:#4B5D50}
-.hackernews {background-color:#FF6600}
-.reddit {background-color:#FF4500}
-.kickstarter {background-color:#87C442}
-.stackoverflow {background-color:#F47920}
-.steam {background-color:#000000}
-.xbox {background-color:#107C10}
-.twitch {background-color:#6441A5}
-.goodreads {background-color:#5A471B}
+img.social{height:32px; width:32px;}
+img.github{background-color:#4183C4;}
+img.bitbucket{background-color:#205081;}
+img.rss{background-color:#FF8300;}
+img.facebook {background-color:#3B5998}
+img.twitter {background-color:#00ACED}
+img.googleplus {background-color:#D14836}
+img.linkedin {background-color:#007FB1}
+img.youtube {background-color:#CD332D}
+img.flickr {background-color:#0063DB}
+img.spotify {background-color:#80B719}
+img.deviantart {background-color:#4B5D50}
+img.hackernews {background-color:#FF6600}
+img.reddit {background-color:#FF4500}
+img.kickstarter {background-color:#87C442}
+img.stackoverflow {background-color:#F47920}
+img.steam {background-color:#000000}
+img.xbox {background-color:#107C10}
+img.twitch {background-color:#6441A5}
+img.goodreads {background-color:#5A471B}
 
 /* Post styles */
 /* ----------------------------------------------------------*/
