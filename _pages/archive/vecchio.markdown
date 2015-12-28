@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Austin Vecchio
-permalink: /vecchio/
+permalink: /vasdfecchio/
 ---
 
 {:.center .logo}
