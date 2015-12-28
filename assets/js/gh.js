@@ -16,6 +16,7 @@ function github_url(id,type){
 }
 
 function projects(){
+  var projects = [];
   for(var i=0; i<repositories.length; i++){
     var repo;
     repo.name = repositories[i].id;
@@ -30,5 +31,15 @@ function projects(){
         repo.data = data;
       }
     });
+    projects.push(repo);
+  }
+  return projects;
+}
+
+function ghformat(){
+  var projects = projects();
+  var bin = [];
+  for(var i=0; i<projects.length; i++){
+
   }
 }
