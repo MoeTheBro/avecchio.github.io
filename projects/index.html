@@ -7,5 +7,6 @@ layout: default
 </div>
 
 <script type="application/javascript">
-  $("#projects").html(github.repositories);
+  var github = new Github();
+  $("#projects").html(github.projects());
 </script>

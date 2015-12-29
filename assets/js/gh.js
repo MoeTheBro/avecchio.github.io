@@ -8,7 +8,7 @@ window.Github = function(){
   };
 
   Github.prototype.function = projects(){
-
+    return this.format();
   };
 
   Github.prototype.function = index(){

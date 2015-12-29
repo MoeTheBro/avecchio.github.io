@@ -18,6 +18,8 @@
 
     <script type="application/javascript" src="/assets/js/jquery-2.1.1.min.js"></script>
     <script type="application/javascript" src="/assets/js/bootstrap.min.js"></script>
+    <script type="application/javascript" src="/assets/js/handlebars-v4.05.js"></script>
+    <script type="application/javascript" src="/assets/js/handlebars-v4.05.js"></script>
     <script type="application/javascript" src="/assets/js/d3.min.js"</script>
     <script type="application/javascript" src="/assets/js/gs.js"</script>
 </head>
@@ -65,7 +67,8 @@
 </div>
 
 <script type="application/javascript">
-  $("#projects").html(github.repositories);
+  var github = new Github();
+  $("#projects").html(github.projects());
 </script>
 
       </div>
