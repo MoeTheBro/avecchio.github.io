@@ -33,7 +33,7 @@ window.Github = function() {
         },
         success: function(data){
           for(var j=0; j<data.length; j++){
-            metadata.push(data[i]);
+            metadata.push(data[j]);
           }
         },
       });
