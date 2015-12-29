@@ -1,11 +1,32 @@
+/*
+window.TemplateGraph = function() {
+	this.GraphDiv = null;
+	this.EditorDiv = null;
+
+	this.Nodes = new Array();
+	this.Links = new Array();
+
+	this.Fill = null;
+	this.Force = null;
+	this.LinkSelection = null;
+	this.NodeSelection = null;
+
+	TemplateGraph.prototype.drawGraph = function(graphDiv, editorDiv, width, height) {
+
+*/
 window.Github = function(){
-  Github.repositories = {
-    {id="avecchio",type="user"},
-    {id="vortexlaboratory",type="org"},
-    {id="binary-labs",type="org"},
-    {id="sprocket-games",type="org"},
-    {id="power-house",type="org"},
-  };
+
+  this.repositories = null;
+
+  Github.prototype.init = function(){
+    this.repositories = {
+        {id="avecchio",type="user"},
+        {id="vortexlaboratory",type="org"},
+        {id="binary-labs",type="org"},
+        {id="sprocket-games",type="org"},
+        {id="power-house",type="org"},
+      };
+  }
 
   Github.prototype.function = projects(){
     return this.format();
@@ -48,4 +69,5 @@ window.Github = function(){
 
     }
   }
-};
+*/
+}

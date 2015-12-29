@@ -7,6 +7,12 @@ layout: default
 </div>
 
 <script type="application/javascript">
+/*
+var graph = new TemplateGraph();
+graph.drawGraph("template-canvas","template-controllers","700px", "400px");
+*/
+
   var github = new Github();
-  $("#projects").html(github.projects());
+  github.init();
+//  $("#projects").html(github.projects());
 </script>

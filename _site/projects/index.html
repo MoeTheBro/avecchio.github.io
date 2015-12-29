@@ -19,9 +19,8 @@
     <script type="application/javascript" src="/assets/js/jquery-2.1.1.min.js"></script>
     <script type="application/javascript" src="/assets/js/bootstrap.min.js"></script>
     <script type="application/javascript" src="/assets/js/handlebars-v4.05.js"></script>
-    <script type="application/javascript" src="/assets/js/handlebars-v4.05.js"></script>
     <script type="application/javascript" src="/assets/js/d3.min.js"</script>
-    <script type="application/javascript" src="/assets/js/gs.js"</script>
+    <script type="application/javascript" src="/assets/js/gh.js"</script>
 </head>
 
 
@@ -67,8 +66,14 @@
 </div>
 
 <script type="application/javascript">
+/*
+var graph = new TemplateGraph();
+graph.drawGraph("template-canvas","template-controllers","700px", "400px");
+*/
+
   var github = new Github();
-  $("#projects").html(github.projects());
+  github.init();
+//  $("#projects").html(github.projects());
 </script>
 
       </div>
