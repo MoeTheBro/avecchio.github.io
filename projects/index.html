@@ -5,7 +5,12 @@ layout: default
 <div id="projects" ng-app="githubApp">
   <div ng-controller="githubController">
     <div ng-repeat="repo in repos">
-      <h2>{{repo}}</h2>
+      <h2>{{repo.class}}</h2>
+      <ul>
+        <li ng-repeat="project in repo.repos">
+
+        </li>
+      </ul>
     </div>
   </div>
 </div>
