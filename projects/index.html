@@ -16,6 +16,13 @@ layout: default
   <div ng-controller="githubController">
     <h4>Projects</h4>
     <table class="table">
+      <thead>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Watchers</th>
+        <th>Stargazers</th>
+        <th>Open Issues</th>
+      </thead>
       <tbody>
         <tr ng-repeat="repo in repos">
           <td><span>
