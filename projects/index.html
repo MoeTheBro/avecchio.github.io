@@ -2,34 +2,20 @@
 layout: default
 ---
 
-<div id="projects">
-
+<div id="projects" ng-app="githubApp">
+  <div ng-controller="githubController">
+    <div ng-repeat="repo in repos">
+      <h2>{{repo}}</h2>
+    </div>
+  </div>
 </div>
 
-<script id="entry-template" type="text/x-handlebars-template">
-      {{#category}}{{FirstName}} {{lastName}}{{/category}}
-</script>
-
 <script type="application/javascript" src="/assets/js/gh.js"></script>
-<script type="application/javascript" src="/assets/js/handlebars-v4.0.5.js"></script>
 <script type="application/javascript">
-  Handlebars.registerHelper('category', function(items, options) {
-    var out = "<ul>";
-    for(var i=0, l=items.length; i<l; i++) {
-      out = out + "<li>" + options.fn(items[i]) + "</li>";
-    }
-    return out + "</ul>";
-  });
-
-  var github = new Github();
-  github.init();
-  var repos = github.index();
-  var source   = $("#entry-template").html();
-  var template = Handlebars.compile(source);
-  var context = [
-      {firstName: "Yehuda", lastName: "Katz"},
-      {firstName: "Carl", lastName: "Lerche"},
-      {firstName: "Alan", lastName: "Johnson"}
-    ];
-  $("#projects").html(template(context));
+  var app = angular.module('githubApp',[]);
+  app.controller('githubController',function($scope){
+    var github = new Github();
+    github.init();
+    $scope.repos = github.index();
+  })
 </script>
