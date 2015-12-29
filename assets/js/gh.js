@@ -32,7 +32,9 @@ window.Github = function() {
           console.log('Error has occured retrieving repository: '+repo.name);
         },
         success: function(data){
-          metadata.push(data);
+          for(var j=0; j<data.length; j++){
+            metadata.push(data[i]);
+          }
         },
       });
     }
@@ -40,11 +42,40 @@ window.Github = function() {
   }
 
   Github.prototype.format = function(data){
-//    var projects = projects();
-    var bin = [];
-//    for(var i=0; i<projects.length; i++){
+    var projects = [];
+    var name_records = [];
+    for(var i=0; i<data.length; i++){
+      var exist = false;
+      var lang = data[i].language;
+      var exists = false;
+      var pos = -1;
+      for(var j=0; j<projects.length; j++){
+        console.log(lang);
+          if(projects[i].class == lang){
+            exists = true;
+            pos = j;
+          }
+        }
+      }
+      if(exists == false){
+        if(lang == null){
+          projects.push({"class":"unknown","repos":[]});
+        }
+        else{
+          projects.push({"class":lang,"repos":[]});
+        }
+      }
+      else{
+        console.log(j);
+      }
+/*      console.log(data);
+      if((exist == false)&&(lang != null)){
+        projects.push({"class":lang,"repos":[]});
+      }
+//      projects.push(data[i]);
+*/
 
-//    }
+    console.log(projects);
   }
 
   Github.prototype.url = function(id,type){
