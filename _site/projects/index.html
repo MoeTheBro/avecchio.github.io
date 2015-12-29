@@ -74,14 +74,19 @@
 <div id="projects" ng-app="githubApp">
   <div ng-controller="githubController">
     <h4>Projects</h4>
-    <ul>
-      <li ng-repeat="repo in repos">
-        <span><a href=""></a></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </li>
-    </ul>
+    <table class="table">
+      <tbody>
+        <tr ng-repeat="repo in repos">
+          <td><span>
+            <a href=""></a>
+          </span></td>
+          <td><span></span></td>
+          <td><span></span></td>
+          <td><span></span></td>
+          <td><span></span></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
 
