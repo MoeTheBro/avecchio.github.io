@@ -63,6 +63,9 @@ window.Github = function() {
           projects.push({"class":lang,"repos":[]});
         }
       }
+      else{
+        projects[pos].repos.push(data[i]);
+      }
     }
     return projects;
   }
