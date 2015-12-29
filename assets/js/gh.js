@@ -45,16 +45,14 @@ window.Github = function() {
     var projects = [];
     var name_records = [];
     for(var i=0; i<data.length; i++){
-      var exist = false;
       var lang = data[i].language;
       var exists = false;
       var pos = -1;
+      if(lang == null){lang = "unknown";}
       for(var j=0; j<projects.length; j++){
-        console.log(lang);
-          if(projects[i].class == lang){
-            exists = true;
-            pos = j;
-          }
+        if(projects[j].class == lang){
+          exists = true;
+          pos = j;
         }
       }
       if(exists == false){
@@ -65,17 +63,8 @@ window.Github = function() {
           projects.push({"class":lang,"repos":[]});
         }
       }
-      else{
-        console.log(j);
-      }
-/*      console.log(data);
-      if((exist == false)&&(lang != null)){
-        projects.push({"class":lang,"repos":[]});
-      }
-//      projects.push(data[i]);
-*/
-
-    console.log(projects);
+    }
+    return projects;
   }
 
   Github.prototype.url = function(id,type){
