@@ -14,12 +14,6 @@ window.Github = function() {
   }
   Github.prototype.index = function(){
     var self = this;
-    var repos = self.projects();
-    return self.format(repos);
-  }
-
-  Github.prototype.projects = function(){
-    var self = this;
     var repos = self.repositories;
     var metadata = [];
 
@@ -39,35 +33,6 @@ window.Github = function() {
       });
     }
     return metadata;
-  }
-
-  Github.prototype.format = function(data){
-    var projects = [];
-    var name_records = [];
-    for(var i=0; i<data.length; i++){
-      var lang = data[i].language;
-      var exists = false;
-      var pos = -1;
-      if(lang == null){lang = "unknown";}
-      for(var j=0; j<projects.length; j++){
-        if(projects[j].class == lang){
-          exists = true;
-          pos = j;
-        }
-      }
-      if(exists == false){
-        if(lang == null){
-          projects.push({"class":"unknown","repos":[]});
-        }
-        else{
-          projects.push({"class":lang,"repos":[]});
-        }
-      }
-      else{
-        projects[pos].repos.push(data[i]);
-      }
-    }
-    return projects;
   }
 
   Github.prototype.url = function(id,type){

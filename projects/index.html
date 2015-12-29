@@ -15,14 +15,14 @@ layout: default
 <div id="projects" ng-app="githubApp">
   <div ng-controller="githubController">
     <h4>Projects</h4>
-    <div ng-repeat="repo in repos">
-      <h2>{{repo.class}}</h2>
-      <ul>
-        <li>
-
-        </li>
-      </ul>
-    </div>
+    <ul>
+      <li ng-repeat="repo in repos">
+        {{repo.name}}
+        {{project.description}}
+        {{project.html_url}}
+        {{projects.forks}}
+      </li>
+    </ul>
   </div>
 </div>
 
