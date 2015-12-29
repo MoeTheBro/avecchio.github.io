@@ -17,10 +17,10 @@ layout: default
     <h4>Projects</h4>
     <ul>
       <li ng-repeat="repo in repos">
-        {{repo.name}}
-        {{project.description}}
-        {{project.html_url}}
-        {{projects.forks}}
+        <span><a href="{{repo.html_url}}">{{repo.name}}</a></span>
+        <span>{{repo.description}}</span>
+        <span>{{repo.forks}}</span>
+        <span>{{repo.open_issues}}</span>
       </li>
     </ul>
   </div>
