@@ -26,15 +26,16 @@ app.controller('githubController',function($scope,$http){
       error: function(){},
       success: function(data){
         angular.forEach(data, function(project){
+          var lang = (project.language == null) ? "Unknown" : project.language;
           var found = false;
           angular.forEach($scope.bins, function(bin){
-            if(bin.language == project.language){
+            if(bin.language == lang){
               bin.repos.push(project);
               found = true;
             }
           });
           if(!found){
-            $scope.bins.push({"language":project.language,"repos":[project]});
+            $scope.bins.push({"language":lang,"repos":[project]});
           }
         });
       },
