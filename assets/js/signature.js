@@ -39,5 +39,4 @@ app.controller('githubController',function($scope,$http){
       },
     });
   });
-  console.log($scope.bins);
 });

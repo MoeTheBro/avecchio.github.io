@@ -25,45 +25,51 @@ layout: default
 
   <hr>
 
-  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingOne">
-        <h4 class="panel-title">
-          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Tales of Professor Tophat
-          </a>
-        </h4>
-      </div>
-      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-        <div class="panel-body">
-          <ol>
-            <li><a>Limitless</a></li>
-            <li><a>There Were Four</a></li>
-            <li><a>The Demon Inside</a></li>
-            <li><a>Picking Up What Was Left Off</a></li>
-            <li><a>Outcast</a></li>
-            <li><a>Great Heights</a></li>
-            <li><a>The Robot Army</a></li>
-            <li><a>The Great Journey</a></li>
-            <li><a>The Dragons Den</a></li>
-            <li><a>Shadows of A Broken Past</a></li>
-            <li><a>To Be Found Again</a></li>
-            To be continued...
-          </ol>
+  <div ng-app="storiesApp">
+    <div ng-controller="storiesController">
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Tales of Professor Tophat
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+              <ol>
+                <li><a>Limitless</a></li>
+                <li><a>There Were Four</a></li>
+                <li><a>The Demon Inside</a></li>
+                <li><a>Picking Up What Was Left Off</a></li>
+                <li><a>Outcast</a></li>
+                <li><a>Great Heights</a></li>
+                <li><a>The Robot Army</a></li>
+                <li><a>The Great Journey</a></li>
+                <li><a>The Dragons Den</a></li>
+                <li><a>Shadows of A Broken Past</a></li>
+                <li><a>To Be Found Again</a></li>
+                To be continued...
+              </ol>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingTwo">
-        <h4 class="panel-title">
-          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Quotes & Scripts
-          </a>
-        </h4>
-      </div>
-      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-        <div class="panel-body">
-
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Quotes & Scripts
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+              <div ng-repeat"whisper in whispers">
+                <p>[[whisper]]</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -73,3 +79,5 @@ layout: default
 
   </div>
 </div>
+
+<script type="application/javascript" src="/assets/js/stories.js"></script>
