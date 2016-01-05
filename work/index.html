@@ -17,17 +17,11 @@ layout: default
     <div ng-repeat="bin in bins | orderBy:'-repos.length'">
       <h2>[[bin.language]]</h2>
       <table class="table">
-        <thead>
-          <th></th>
-          <th></th>
-          <th></th>
-        </thead>
         <tbody>
           <tr ng-repeat="repo in bin.repos">
             <td>[[$index + 1]]</td>
-            <td><a href="">[[repo.name]]</a></td>
+            <td><a href="[[repo.html_url]]">[[repo.name]]</a></td>
             <td>[[repo.description]]</td>
-            <td></td>
             <td></td>
             <td></td>
           </tr>

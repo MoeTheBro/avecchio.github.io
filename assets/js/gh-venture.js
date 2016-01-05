@@ -4,7 +4,6 @@ var app = angular.module('githubApp',[], function($interpolateProvider){
 });
 app.controller('githubController',function($scope,$http){
   $scope.bins = [];
-  $scope.repos = [];
   $scope.profiles = [
     {"id":"avecchio","type":"user"},
     {"id":"vortexlaboratory","type":"org"},
@@ -12,6 +11,10 @@ app.controller('githubController',function($scope,$http){
     {"id":"sprocket-games","type":"org"},
     {"id":"power-house","type":"org"}
   ];
+
+  $scope.activity = function(time){
+
+  }
 
   angular.forEach($scope.profiles, function(profile){
     var url = (profile.type=="user") ? "users/" : "orgs/";
@@ -33,7 +36,6 @@ app.controller('githubController',function($scope,$http){
           if(!found){
             $scope.bins.push({"language":project.language,"repos":[project]});
           }
-          $scope.repos.push(project);
         });
       },
     });
