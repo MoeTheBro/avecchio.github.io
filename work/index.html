@@ -26,7 +26,7 @@ layout: default
       <tbody>
         <tr ng-repeat="repo in repos">
           <td><span>
-            <a href="{{repo.html_url}}">{{repo.name}}</a>
+            <a href={{repo.html_url}}>{{repo.name}}</a>
           </span></td>
           <td><span>{{repo.description}}</span></td>
           <td><span>{{repo.watchers}}</span></td>
@@ -38,13 +38,4 @@ layout: default
   </div>
 </div>
 
-<script type="application/javascript" src="/assets/js/gh.js"></script>
-<script type="application/javascript">
-  var app = angular.module('githubApp',[]);
-  app.controller('githubController',function($scope){
-    var github = new Github();
-    github.init();
-    $scope.repos = github.index();
-    console.log($scope.repos);
-  })
-</script>
+<script type="application/javascript" src="/assets/js/gh-venture.js"></script>

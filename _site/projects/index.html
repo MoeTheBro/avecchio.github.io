@@ -85,7 +85,7 @@
       <tbody>
         <tr ng-repeat="repo in repos">
           <td><span>
-            <a href=""></a>
+            <a href=></a>
           </span></td>
           <td><span></span></td>
           <td><span></span></td>
@@ -97,16 +97,7 @@
   </div>
 </div>
 
-<script type="application/javascript" src="/assets/js/gh.js"></script>
-<script type="application/javascript">
-  var app = angular.module('githubApp',[]);
-  app.controller('githubController',function($scope){
-    var github = new Github();
-    github.init();
-    $scope.repos = github.index();
-    console.log($scope.repos);
-  })
-</script>
+<script type="application/javascript" src="/assets/js/gh-venture.js"></script>
 
       </div>
     </div>

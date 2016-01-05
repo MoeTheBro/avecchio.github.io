@@ -70,11 +70,11 @@
 
     // Event handling
     function addListeners() {
-        if(!('ontouchstart' in window)) {
-            window.addEventListener('mousemove', mouseMove);
-        }
-        window.addEventListener('scroll', scrollCheck);
-        window.addEventListener('resize', resize);
+      $( window ).resize(function(){
+        target.x = $(window).width() / 2;
+        target.y = $(window).height() / 2;
+        console.log(target);
+      });
     }
 
     function mouseMove(e) {
@@ -87,8 +87,8 @@
             posx = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
             posy = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
         }
-        target.x = posx;
-        target.y = posy;
+        target.x = window.height / 2;//posx;
+        target.y = window.width / 2;//posy;
     }
 
     function scrollCheck() {
