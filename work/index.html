@@ -12,7 +12,11 @@ layout: default
   </ol>
 </div>
 
-<div id="projects" ng-app="githubApp">
+<div id="skills">
+  <span class="devicons devicons-html5">Html5</div>
+</div>
+
+<div id="work" ng-app="githubApp">
   <div ng-controller="githubController">
     <div ng-repeat="bin in bins | orderBy:'-repos.length'">
       <h2>[[bin.language]]</h2>
