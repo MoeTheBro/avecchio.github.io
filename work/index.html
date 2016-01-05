@@ -14,7 +14,7 @@ layout: default
 
 <div id="projects" ng-app="githubApp">
   <div ng-controller="githubController">
-    <div ng-repeat="bin in bins">
+    <div ng-repeat="bin in bins | orderBy:'-repos.length'">
       <h2>{{bin.languages}}</h2>
       <table class="table">
         <thead>
