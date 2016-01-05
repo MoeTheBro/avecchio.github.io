@@ -36,4 +36,5 @@ app.controller('githubController',function($scope,$http){
     });
   });
   console.log($scope.repos);
+  console.log($scope.bins);
 });

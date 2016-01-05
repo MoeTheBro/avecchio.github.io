@@ -14,28 +14,23 @@ layout: default
 
 <div id="projects" ng-app="githubApp">
   <div ng-controller="githubController">
-    <h4>Projects</h4>
-    <table class="table">
-      <thead>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Watchers</th>
-        <th>Stargazers</th>
-        <th>Open Issues</th>
-      </thead>
-      <tbody>
-        <tr ng-repeat="repo in repos">
-          {{index}}
-          <td><span>
-            <a href={{repo.html_url}}>{{repo.name}}</a>
-          </span></td>
-          <td><span>{{repo.description}}</span></td>
-          <td><span>{{repo.watchers}}</span></td>
-          <td><span>{{repo.stargazers_count}}</span></td>
-          <td><span>{{repo.open_issues}}</span></td>
-        </tr>
-      </tbody>
-    </table>
+    <div ng-repeat="bin in bins">
+      <h2>{{bin.language}}</h2>
+      <table class="table">
+        <thead>
+          <th></th>
+          <th></th>
+          <th></th>
+        </thead>
+        <tbody>
+          <tr ng-repeat="repo in bin.repos">
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
 
