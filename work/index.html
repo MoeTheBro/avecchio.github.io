@@ -25,6 +25,7 @@ layout: default
       </thead>
       <tbody>
         <tr ng-repeat="repo in repos">
+          {{index}}
           <td><span>
             <a href={{repo.html_url}}>{{repo.name}}</a>
           </span></td>

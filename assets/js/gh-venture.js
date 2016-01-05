@@ -1,5 +1,6 @@
 var app = angular.module('githubApp',[]);
 app.controller('githubController',function($scope,$http){
+  $scope.bins = [];
   $scope.repos = [];
   $scope.profiles = [
     {"id":"avecchio","type":"user"},
@@ -19,9 +20,20 @@ app.controller('githubController',function($scope,$http){
       error: function(){},
       success: function(data){
         angular.forEach(data, function(project){
+          var found = false;
+          angular.forEach($scope.bins, function(bin){
+            console.log(bin.language + ' ' + project.language);
+            if(bin.language == project.language){
+              found = true;
+            }
+          });
+          if(!found){
+            $scope.bins.push({"language":project.language,"repos":[project]});
+          }
           $scope.repos.push(project);
         });
       },
     });
   });
+  console.log($scope.repos);
 });
