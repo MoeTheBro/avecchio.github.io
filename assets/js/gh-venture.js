@@ -22,8 +22,8 @@ app.controller('githubController',function($scope,$http){
         angular.forEach(data, function(project){
           var found = false;
           angular.forEach($scope.bins, function(bin){
-            console.log(bin.language + ' ' + project.language);
             if(bin.language == project.language){
+              bin.repos.push(project);
               found = true;
             }
           });
@@ -35,6 +35,4 @@ app.controller('githubController',function($scope,$http){
       },
     });
   });
-  console.log($scope.repos);
-  console.log($scope.bins);
 });
