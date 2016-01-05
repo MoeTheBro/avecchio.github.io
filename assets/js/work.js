@@ -35,10 +35,11 @@ app.controller('workController',function($scope,$http){
         angular.forEach(data, function(project){
           var lang = (project.language == null) ? "Unknown" : project.language;
           var found = false;
+          var current_date = (new Date()).getTime()/1000;
           var last_updated = Math.floor(new Date(project.pushed_at).getTime()/1000);
-          if(last_updated){project.activity = {"badge":"","msg":""};}
-          else if((last_updated)||(last_updated)){project.activity = {"badge":"","msg":""};}
-          else{project.activity = {"badge":"","msg":""};}
+          if(last_updated > (current_date - (2678400*2))){project.activity = {"badge":"success","msg":""};}
+          else if((last_updated < (current_date - (2678400*2))) || (last_updated > (current_date - (2678400*6)))){project.activity = {"badge":"warning","msg":""};}
+          else{project.activity = {"badge":"danger","msg":""};}
           angular.forEach($scope.bins, function(bin){
             if(bin.language == lang){
               bin.repos.push(project);
