@@ -19,7 +19,7 @@ layout: default
 <div id="work" ng-app="githubApp">
   <div ng-controller="githubController">
     <div ng-repeat="bin in bins | orderBy:'-repos.length'">
-      <h2>[[bin.language]]</h2>
+      <h2>[[bin.language]] <span class="badge">[[bin.size]]</span></h2>
       <table class="table">
         <tbody>
           <tr ng-repeat="repo in bin.repos">

@@ -35,11 +35,12 @@ app.controller('githubController',function($scope,$http){
           angular.forEach($scope.bins, function(bin){
             if(bin.language == lang){
               bin.repos.push(project);
+              bin.size += 1;
               found = true;
             }
           });
           if(!found){
-            $scope.bins.push({"language":lang,"repos":[project]});
+            $scope.bins.push({"language":lang,"size":1,"repos":[project]});
           }
         });
       },
