@@ -1,9 +1,10 @@
-var app = angular.module('githubApp',[], function($interpolateProvider){
+var app = angular.module('workApp',[], function($interpolateProvider){
   $interpolateProvider.startSymbol('[[');
   $interpolateProvider.endSymbol(']]');
 });
-app.controller('githubController',function($scope,$http){
+app.controller('workController',function($scope,$http){
   $scope.bins = [];
+  $scope.skills = [];
   $scope.profiles = [
     {"id":"avecchio","type":"user"},
     {"id":"vortexlaboratory","type":"org"},
@@ -12,9 +13,15 @@ app.controller('githubController',function($scope,$http){
     {"id":"power-house","type":"org"}
   ];
 
-  $scope.activity = function(time){
-
-  }
+  $.ajax({
+    url: "/assets/metadata/info.json",
+    async: false,
+    data: {format: 'json'},
+    error: function(){},
+    success: function(data){
+      $scope.skills = data;
+    },
+  });
 
   angular.forEach($scope.profiles, function(profile){
     var url = (profile.type=="user") ? "users/" : "orgs/";

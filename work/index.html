@@ -2,54 +2,60 @@
 layout: default
 ---
 
-<div id="skills" class="headline">
-</div>
 
-<hr>
+<div ng-app="workApp">
+  <div ng-controller="workController">
+    <div id="skills" class="headline">
+      <div ng-repeat="skill in skills">
+        <span class="devicon devicon-[[skill]]"></span>
+      </div>
+    </div>
 
-<div id="research">
-  <h4>Research <span class="badge"></span></h4>
-  <ol>
-    <li><a href="">Automated Web Testing</a></li>
-    <li><a href="">Triangulation As A Search Problem</a></li>
-    <li><a href="">Universal Scheduling</a></li>
-    <li><a href="">Machine Learning for NES Game Playing</a></li>
-  </ol>
-</div>
+    <hr>
 
-<div id="work" ng-app="githubApp">
-  <div ng-controller="githubController">
-    <div ng-repeat="bin in bins | orderBy:'-repos.length'">
-      <h2>[[bin.language]] <span class="badge">[[bin.size]]</span></h2>
-      <div class="well">
-        <table class="table">
-          <thead>
-            <th></th>
-            <th>Name</th>
-            <th>Description</th>
-            <th>Activity</th>
-            <th>Forks</th>
-            <th>Watchers</th>
-            <th>Stargazers</th>
-          </thead>
-          <tbody>
-            <tr ng-repeat="repo in bin.repos">
-              <td>[[$index + 1]]</td>
-              <td><a href="[[repo.html_url]]">[[repo.name]]</a></td>
-              <td>[[repo.description]]</td>
-              <td><span class="label label-info">[[repo.pushed_at]]</span></td>
-              <td>[[repo.forks_count]]</td>
-              <td>[[repo.watchers_count]]</td>
-              <td>[[repo.stargazers_count]]</td>
-            </tr>
-          </tbody>
-        </table>
+    <div id="research">
+      <h4>Research <span class="badge"></span></h4>
+      <ol>
+        <li><a href="">Automated Web Testing</a></li>
+        <li><a href="">Triangulation As A Search Problem</a></li>
+        <li><a href="">Universal Scheduling</a></li>
+        <li><a href="">Machine Learning for NES Game Playing</a></li>
+      </ol>
+    </div>
+
+    <div id="work">
+      <div ng-repeat="bin in bins | orderBy:'-repos.length'">
+        <h2>[[bin.language]] <span class="badge">[[bin.size]]</span></h2>
+        <div class="well">
+          <table class="table">
+            <thead>
+              <th></th>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Activity</th>
+              <th>Forks</th>
+              <th>Watchers</th>
+              <th>Stargazers</th>
+            </thead>
+            <tbody>
+              <tr ng-repeat="repo in bin.repos">
+                <td>[[$index + 1]]</td>
+                <td><a href="[[repo.html_url]]">[[repo.name]]</a></td>
+                <td>[[repo.description]]</td>
+                <td><span class="label label-info">[[repo.pushed_at]]</span></td>
+                <td>[[repo.forks_count]]</td>
+                <td>[[repo.watchers_count]]</td>
+                <td>[[repo.stargazers_count]]</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-<script type="application/javascript" src="/assets/js/gh-venture.js"></script>
+<script type="application/javascript" src="/assets/js/work.js"></script>
 <script type="application/javascript">
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
