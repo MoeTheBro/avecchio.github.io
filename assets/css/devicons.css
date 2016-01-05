@@ -1,5 +1,5 @@
 /*!
- *  Devicons 1.7.0 made by Theodore Vorillas / http://vorillaz.com 
+ *  Devicons 1.7.0 made by Theodore Vorillas / http://vorillaz.com
  */
 @font-face {
   font-family: 'devicons';
@@ -217,7 +217,7 @@
   content: "\e641";
 }
 
-.devicons-jekyll_small:before {
+.devicons-jekyll:before {
   content: "\e60d";
 }
 
