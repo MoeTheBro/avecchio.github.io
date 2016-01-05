@@ -40,7 +40,6 @@ app.controller('workController',function($scope,$http){
           if(last_updated > (current_date - (2678400*2))){project.activity = {"badge":"success","msg":""};}
           else if((last_updated < (current_date - (2678400*2))) && (last_updated < (current_date - (2678400*6)))){project.activity = {"badge":"warning","msg":""};}
           else{project.activity = {"badge":"danger","msg":""};}
-          console.log(project.name + " " + (current_date - (2678400*6)) + " " +last_updated);
           angular.forEach($scope.bins, function(bin){
             if(bin.language == lang){
               bin.repos.push(project);
@@ -55,5 +54,4 @@ app.controller('workController',function($scope,$http){
       },
     });
   });
-  console.log($scope.bins);
 });
