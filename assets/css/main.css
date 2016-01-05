@@ -140,6 +140,15 @@ a:visited { color: #205caa; }
   background-color: #fff;
 }
 
+/* Landing page styles */
+/* ----------------------------------------------------------*/
+.landing {
+  position: relative;
+  top: -56px;
+  z-index: 1;
+  margin: auto;
+  text-align: center;
+}
 
 /* Home styles */
 /* ----------------------------------------------------------*/
