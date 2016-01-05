@@ -15,7 +15,7 @@ layout: default
 <div id="projects" ng-app="githubApp">
   <div ng-controller="githubController">
     <div ng-repeat="bin in bins | orderBy:'-repos.length'">
-      <h2>{{bin.languages}}</h2>
+      <h2>[[bin.language]]</h2>
       <table class="table">
         <thead>
           <th></th>
@@ -24,9 +24,12 @@ layout: default
         </thead>
         <tbody>
           <tr ng-repeat="repo in bin.repos">
-            <td>{{repo}}</td>
-            <td>{{repo}}</td>
-            <td>{{repo}}</td>
+            <td>[[$index + 1]]</td>
+            <td><a href="">[[repo.name]]</a></td>
+            <td>[[repo.description]]</td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
         </tbody>
       </table>

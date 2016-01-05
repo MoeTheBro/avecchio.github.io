@@ -1,4 +1,7 @@
-var app = angular.module('githubApp',[]);
+var app = angular.module('githubApp',[], function($interpolateProvider){
+  $interpolateProvider.startSymbol('[[');
+  $interpolateProvider.endSymbol(']]');
+});
 app.controller('githubController',function($scope,$http){
   $scope.bins = [];
   $scope.repos = [];
@@ -35,4 +38,5 @@ app.controller('githubController',function($scope,$http){
       },
     });
   });
+  console.log($scope.bins);
 });
