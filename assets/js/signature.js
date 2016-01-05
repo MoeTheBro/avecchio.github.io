@@ -1,18 +1,18 @@
-var app = angular.module('githubApp',[], function($interpolateProvider){
+var signature = angular.module('signatureApp',[], function($interpolateProvider){
   $interpolateProvider.startSymbol('[[');
   $interpolateProvider.endSymbol(']]');
 });
-app.controller('githubController',function($scope,$http){
-  $scope.bins = [];
-
-  angular.forEach($scope.profiles, function(profile){
-    $.ajax({
-      url: "",
-      async: false,
-      data: {format: 'json'},
-      error: function(){},
-      success: function(data){
-      },
-    });
+signature.controller('signatureController',function($scope,$http){
+  $scope.signatures = [];
+  $scope.signature = null;
+  $.ajax({
+    url: "",
+    async: false,
+    data: {format: 'json'},
+    error: function(){},
+    success: function(data){
+      $scope.signatures = data;
+    },
   });
+  console.log($scope.signatures);
 });

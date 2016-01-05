@@ -1,8 +1,8 @@
-var app = angular.module('storiesApp',[], function($interpolateProvider){
+var stories = angular.module('storiesApp',[], function($interpolateProvider){
   $interpolateProvider.startSymbol('[[');
   $interpolateProvider.endSymbol(']]');
 });
-app.controller('storiesController',function($scope,$http){
+stories.controller('storiesController',function($scope,$http){
   $scope.tales = [];
   $scope.whispers = [];
   $.ajax({
