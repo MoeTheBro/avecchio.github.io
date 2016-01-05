@@ -6,9 +6,9 @@ layout: default
 <div ng-app="workApp">
   <div ng-controller="workController">
     <div id="skills" class="headline">
-      <div ng-repeat="skill in skills">
-        <span class="devicon devicon-[[skill]]"></span>
-      </div>
+      <a ng-repeat="skill in skills">
+        <span class="devicons devicons-[[skill]]"></span>
+      </a>
     </div>
 
     <hr>
