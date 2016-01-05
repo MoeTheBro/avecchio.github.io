@@ -28,6 +28,10 @@ app.controller('githubController',function($scope,$http){
         angular.forEach(data, function(project){
           var lang = (project.language == null) ? "Unknown" : project.language;
           var found = false;
+          var last_updated = Math.floor(new Date(project.pushed_at).getTime()/1000);
+          if(last_updated){project.activity = {"badge":"","msg":""};}
+          else if((last_updated)||(last_updated)){project.activity = {"badge":"","msg":""};}
+          else{project.activity = {"badge":"","msg":""};}
           angular.forEach($scope.bins, function(bin){
             if(bin.language == lang){
               bin.repos.push(project);
