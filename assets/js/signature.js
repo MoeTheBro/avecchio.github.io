@@ -6,7 +6,7 @@ signature.controller('signatureController',function($scope,$http){
   $scope.signatures = [];
   $scope.signature = null;
   $.ajax({
-    url: "",
+    url: "/assets/metadata/signatures.json",
     async: false,
     data: {format: 'json'},
     error: function(){},
@@ -14,5 +14,4 @@ signature.controller('signatureController',function($scope,$http){
       $scope.signatures = data;
     },
   });
-  console.log($scope.signatures);
 });
