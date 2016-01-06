@@ -27,17 +27,18 @@ layout: default
 
     <div id="work">
       <div ng-repeat="bin in bins | orderBy:'-repos.length'">
-        <h2>[[bin.language]] <span class="badge">[[bin.size]]</span></h2>
-        <div class="well">
-          <table class="table">
+        <div class="headline">
+          <h2>[[bin.language]] <span class="badge">[[bin.size]]</span></h2>
+        </div>
+        <div class="">
+          <table class="table table-striped">
             <thead>
               <th></th>
               <th>Name</th>
               <th>Description</th>
               <th>Activity</th>
               <th>Forks</th>
-              <th>Watchers</th>
-              <th>Stargazers</th>
+              <th>Stars</th>
             </thead>
             <tbody>
               <tr ng-repeat="repo in bin.repos">
@@ -46,7 +47,6 @@ layout: default
                 <td>[[repo.description]]</td>
                 <td><span class="label label-[[repo.activity.badge]]">[[repo.pushed_at]]</span></td>
                 <td>[[repo.forks_count]]</td>
-                <td>[[repo.watchers_count]]</td>
                 <td>[[repo.stargazers_count]]</td>
               </tr>
             </tbody>

@@ -183,6 +183,7 @@ a:visited { color: #205caa; }
 #tales{margin-left: 25px;}
 .social-grid{font-size: 0px;}
 img.signature{}
+img.avatar{height:256px;}
 img.logo{height:128px;}
 img.extern{height:32px; width:32px;}
 img.social{height:32px; width:32px;}
