@@ -38,7 +38,7 @@ app.controller('workController',function($scope,$http){
           var current_date = (new Date()).getTime()/1000;
           var last_updated = Math.floor(new Date(project.pushed_at).getTime()/1000);
           if(last_updated > (current_date - (2678400*2))){project.activity = {"badge":"success","msg":""};}
-          else if((last_updated < (current_date - (2678400*2))) && (last_updated < (current_date - (2678400*6)))){project.activity = {"badge":"warning","msg":""};}
+          else if((last_updated < (current_date - (2678400*2))) && (last_updated > (current_date - (2678400*6)))){project.activity = {"badge":"warning","msg":""};}
           else{project.activity = {"badge":"danger","msg":""};}
           angular.forEach($scope.bins, function(bin){
             if(bin.language == lang){
