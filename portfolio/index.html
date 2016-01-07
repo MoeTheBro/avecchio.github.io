@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div ng-app="workApp">
-  <div ng-controller="workController">
+<div ng-app="portfolioApp">
+  <div ng-controller="portfolioController">
 
     <div id="skills" class="headline">
       <span ng-repeat="skill in skills" data-toggle="tooltip" data-placement="top" title="[[skill]]">
@@ -56,7 +56,7 @@ layout: default
   </div>
 </div>
 
-<script type="application/javascript" src="/assets/js/work.js"></script>
+<script type="application/javascript" src="/assets/js/portfolio.js"></script>
 <script type="application/javascript">
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
