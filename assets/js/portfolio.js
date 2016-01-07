@@ -14,7 +14,7 @@ app.controller('portfolioController',function($scope,$http){
   ];
 
   $.ajax({
-    url: "/assets/metadata/info.json",
+    url: "/assets/metadata/skills.json",
     async: false,
     data: {format: 'json'},
     error: function(){},

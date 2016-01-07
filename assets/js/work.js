@@ -3,5 +3,5 @@ var app = angular.module('workApp',[], function($interpolateProvider){
   $interpolateProvider.endSymbol(']]');
 });
 app.controller('workAppController',function($scope,$http){
-  $scope.jobs = {};
+  $scope.jobs = ;
 });
