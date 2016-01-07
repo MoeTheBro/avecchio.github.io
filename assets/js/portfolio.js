@@ -5,6 +5,7 @@ var app = angular.module('portfolioApp',[], function($interpolateProvider){
 app.controller('portfolioController',function($scope,$http){
   $scope.bins = [];
   $scope.skills = [];
+  $scope.books = [];
   $scope.profiles = [
     {"id":"avecchio","type":"user"},
     {"id":"vortexlaboratory","type":"org"},
@@ -20,6 +21,16 @@ app.controller('portfolioController',function($scope,$http){
     error: function(){},
     success: function(data){
       $scope.skills = data;
+    },
+  });
+
+  $.ajax({
+    url: "/assets/metadata/books.json",
+    async: false,
+    data: {format: 'json'},
+    error: function(){},
+    success: function(data){
+      $scope.books = data;
     },
   });
 
