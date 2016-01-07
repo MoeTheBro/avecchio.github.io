@@ -149,10 +149,14 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 .landing {
   position: relative;
-  top: -56px;
+  top: -84px;
   z-index: 1;
   margin: auto;
   text-align: center;
+}
+.landing-nav {
+  width: 60%;
+  margin: auto;
 }
 
 /* Home styles */
