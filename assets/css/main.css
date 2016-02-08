@@ -149,8 +149,8 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 .landing {
   position: relative;
-  top: -84px;
-  z-index: 1;
+  top: 85px;
+  z-index: 2;
   margin: auto;
   text-align: center;
 }
