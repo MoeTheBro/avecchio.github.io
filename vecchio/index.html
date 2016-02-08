@@ -21,8 +21,10 @@ layout: default
 
     <div id="bio">
       <div id="avatar">
-        <div>
-          <img class="avatar img-rounded" src="/assets/images/gallery/avatar.jpg" alt="" />
+        <div id="me">
+          <div>
+            <img class="avatar img-rounded" src="/assets/images/gallery/avatar.jpg" alt="" />
+          </div>
         </div>
         <br>
         <div>
@@ -46,3 +48,10 @@ layout: default
     </div>
   </div>
 </div>
+
+<script type="application/javascript">
+$(document).ready(function(){
+  $('.me').slick({
+  });
+});
+</script>
