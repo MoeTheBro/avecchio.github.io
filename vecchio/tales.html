@@ -3,6 +3,7 @@ layout: default
 ---
 <div id="stories">
   <div id="tales">
+    <h2> The Tales of Professor Tophat</h2>
     <ol>
       <li><a href="">Limitless</a></li>
       <li><a href="">There Were Four</a></li>
@@ -18,15 +19,14 @@ layout: default
     </ol>
     <span>To be continued...</span>
   </div>
-  <div>
+  <div ng-app="thoughtbotApp">
+    <div ng-controller="thoughtbotController">
+      <h2>Shorts</h2>
+      <div ng-repeat="thought in thoughts">
+        <p>[[thought]]</p>
+        <hr>
+      </div>
+    </div>
   </div>
 </div>
-
-<!--
-<div ng-app="storiesApp">
-  <div ng-controller="storiesController">
-<div ng-repeat="whisper in whispers">
-  <p> - [[whisper]]</p>
-<script type="application/javascript" src="/assets/js/stories.js"></script>
-
--->
+<script type="application/javascript" src="/assets/js/thoughts.js"></script>

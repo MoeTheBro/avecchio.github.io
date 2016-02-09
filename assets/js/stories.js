@@ -3,7 +3,6 @@ var stories = angular.module('storiesApp',[], function($interpolateProvider){
   $interpolateProvider.endSymbol(']]');
 });
 stories.controller('storiesController',function($scope,$http){
-  $scope.tales = [];
   $scope.whispers = [];
   $.ajax({
     url: '/assets/metadata/whispers.json',
@@ -14,5 +13,4 @@ stories.controller('storiesController',function($scope,$http){
       $scope.whispers = data;
     },
   });
-  console.log($scope.whispers);
 });
