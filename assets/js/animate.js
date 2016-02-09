@@ -2,10 +2,16 @@
 
     var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
 
+      initHeader();
+      initAnimation();
+      addListeners();
     // Main
-    initHeader();
-    initAnimation();
-    addListeners();
+
+    $(window).resize(function() {
+      initHeader();
+      initAnimation();
+      addListeners();
+    });
 
     function initHeader() {
         width = window.innerWidth;
