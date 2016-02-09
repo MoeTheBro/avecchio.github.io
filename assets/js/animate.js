@@ -22,7 +22,6 @@
         largeHeader.style.height = height+'px';
 
         canvas = document.getElementById('animate-canvas');
-        console.log(canvas);
         canvas.width = width;
         canvas.height = height;
         ctx = canvas.getContext('2d');
