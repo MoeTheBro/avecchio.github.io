@@ -20,10 +20,22 @@ layout: default
     <br><br>
 
     <div id="bio">
-      <div id="avatar">
-        <div id="me">
+      <div id="about-me">
+        <div id="snapshots">
           <div>
-            <img class="avatar img-rounded" src="/assets/images/gallery/avatar.jpg" alt="" />
+            <img class="avatar img-rounded" src="/assets/images/gallery/1890602_655650737824197_452955440449026202_o.jpg" alt="" />
+          </div>
+          <div>
+            <img class="avatar img-rounded" src="/assets/images/gallery/19985_911232858932649_4988978322721604741_n.jpg" alt="" />
+          </div>
+          <div>
+            <img class="avatar img-rounded" src="/assets/images/gallery/11043190_803968996325703_2661163468779338581_o.jpg" alt="" />
+          </div>
+          <div>
+            <img class="avatar img-rounded" src="/assets/images/gallery/11741161_866346933421242_5326164377593752828_o.jpg" alt="" />
+          </div>
+          <div>
+            <img class="avatar img-rounded" src="/assets/images/gallery/12265804_10156117617765408_2510543839749787023_o.jpg" alt="" />
           </div>
         </div>
         <br>
@@ -51,7 +63,15 @@ layout: default
 
 <script type="application/javascript">
 $(document).ready(function(){
-  $('.me').slick({
+  $('#snapshots').slick({
+    centerMode: false,
+    dots: true,
+    fade: true,
+    lazyLoad: 'ondemand',
+    autoplay: true,
+    autoplaySpeed: 2500,
+    slidesToShow: 1,
+    slidesToScroll: 1
   });
 });
 </script>
