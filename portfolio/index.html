@@ -24,8 +24,20 @@ layout: default
       <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="portfolio">
           <div ng-repeat="book in books">
-            <div>
-            </div>
+              <h2>[[book.name]]</h2>
+              <div>
+                <span>[[book.description]]</span>
+              </div>
+              <p>[[book.reason]]</p>
+              <div>
+                <span><a href="[[book.homepage]]">Homepage</a></span>|
+                <span><a href="[[book.repo]]">Source</a></span>
+              </div>
+              <div>
+                <div ng-repeat="screenshot in book.screenshots">
+                  <img src="" alt=""/>
+                </div>
+              </div>
             <hr>
           </div>
         </div>

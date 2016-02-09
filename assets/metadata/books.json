@@ -1,0 +1,12 @@
+[
+  {
+    "name":"Avalanche",
+    "description":"A programmable data generator",
+    "homepage":"https://avecchio.github.io/portfolio/projects/avalanche.html",
+    "repo":"https://github.com/sprocket-games/avalanche",
+    "reason":"Works off of both predefined data sets and a modified reverse regex. Also doubles as a fuzzer by producing incorrect forms of data.",
+    "screenshots":[
+      ""
+    ]
+  }
+]
