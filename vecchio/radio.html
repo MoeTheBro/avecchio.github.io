@@ -2,12 +2,26 @@
 layout: default
 ---
 <div id="radio">
-  <iframe
-      src="http://player.twitch.tv/?channel=sparkysglitch"
-      height="720"
-      width="640"
-      frameborder="0"
-      scrolling="no"
-      allowfullscreen>
-  </iframe>
+
+  <div>
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#twitch" aria-controls="twitch" role="tab" data-toggle="tab">Twitch</a></li>
+      <li role="presentation"><a href="#robots" aria-controls="robots" role="tab" data-toggle="tab">Robotics</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="twitch">
+        <iframe
+            src="http://player.twitch.tv/?channel=sparkysglitch"
+            height="720"
+            width="640"
+            frameborder="0"
+            scrolling="no"
+            allowfullscreen>
+        </iframe>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="robots">...</div>
+    </div>
+  </div>
+
 </div>
