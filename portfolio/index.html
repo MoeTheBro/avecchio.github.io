@@ -16,42 +16,89 @@ layout: default
     <div>
       <!-- Nav tabs -->
       <ul class="nav nav-pills nav-justified" role="tablist">
-        <li role="presentation"><a href="#portfolio" aria-controls="portfolio" role="tab" data-toggle="tab">Portfolio</a></li>
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Portfolio</a></li>
         <li role="presentation"><a href="#research" aria-controls="research" role="tab" data-toggle="tab">Research</a></li>
-        <li role="presentation"><a href="#work" aria-controls="work" role="tab" data-toggle="tab">Work</a></li>
+        <li role="presentation"><a href="#projects" aria-controls="projects" role="tab" data-toggle="tab">Projects</a></li>
       </ul>
+
       <!-- Tab panes -->
       <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="portfolio">
+        <div role="tabpanel" class="tab-pane fade in active" id="home">
           <div ng-repeat="book in books">
-              <h2>[[book.name]]</h2>
-              <div>
-                <span>[[book.description]]</span>
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
               </div>
-              <p>[[book.reason]]</p>
-              <div>
-                <span><a href="[[book.homepage]]">Homepage</a></span>|
-                <span><a href="[[book.repo]]">Source</a></span>
+              <div class="col-md-5">
+                <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1MzAxZmY0ZGNhIHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTUzMDFmZjRkY2EiPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEyNSIgeT0iMjYxLjEiPjUwMHg1MDA8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
               </div>
-              <div>
-                <div ng-repeat="screenshot in book.screenshots">
-                  <img src="" alt=""/>
-                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+              <div class="col-md-7 col-md-push-5">
+                <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
               </div>
-            <hr>
+              <div class="col-md-5 col-md-pull-7">
+                <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE1MzAxZmY1OTBkIHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTUzMDFmZjU5MGQiPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEyNSIgeT0iMjYxLjEiPjUwMHg1MDA8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
+              </div>
+            </div>
+
           </div>
         </div>
-        <div role="tabpanel" class="tab-pane" id="research">
+        <div role="tabpanel" class="tab-pane fade" id="research">
           <h4>Research <span class="badge"></span></h4>
-          <ol>
-            <li><a href="thesis.html">Automated Web Testing</a></li>
-            <li><a href="lockon.html">Triangulation As A Search Problem</a></li>
-            <li><a href="registrar.html">Course Schedualing</a></li>
-            <li><a href="routing.html">Logistics Schedualing</a></li>
-            <li><a href="arcade.html">Machine Learning for NES Game Playing</a></li>
-          </ol>
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+              <h2>Automated Web Testing</h2>
+              <p>My Kettering Thesis constructed for HelloWorld</p>
+              <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+              <h2>Triangulation as a Search Problem</h2>
+              <p></p>
+              <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+              <h2>Course Schedualing</h2>
+              <p>A common example in artificial intelligence as a constraint satisfaction problem put into a system that can be used by universities.</p>
+              <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
+
+          <hr>
+
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+              <h2>Logistics Schedualing</h2>
+              <p></p>
+              <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+              <h2>Machine Learning for NES Game Playing</h2>
+              <p>A modification to a fellow researchers famous program Playfun/Learnfun in the attempt to create a smarter system capable of beating all NES games.</p>
+              <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+              <h2>Cellular Simulation</h2>
+              <p>If we could simulate atoms, we can simulate cells, and simulate tissue. Deriving the inner workings of the body.</p>
+              <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
         </div>
-        <div role="tabpanel" class="tab-pane" id="work">
+        <div role="tabpanel" class="tab-pane fade" id="projects">
+
           <div ng-repeat="bin in bins | orderBy:'-repos.length'">
             <div class="headline">
               <h2>[[bin.language]] <span class="badge">[[bin.size]]</span></h2>
@@ -78,7 +125,9 @@ layout: default
                 </tbody>
               </table>
             </div>
+          <hr>
           </div>
+
         </div>
       </div>
     </div>
@@ -86,8 +135,3 @@ layout: default
 </div>
 
 <script type="application/javascript" src="/assets/js/portfolio.js"></script>
-<script type="application/javascript">
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-</script>
