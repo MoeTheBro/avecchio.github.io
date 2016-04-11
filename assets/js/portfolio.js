@@ -7,11 +7,7 @@ app.controller('portfolioController',function($scope,$http){
   $scope.skills = [];
   $scope.books = [];
   $scope.profiles = [
-    {"id":"avecchio","type":"user"},
-    {"id":"vortexlaboratory","type":"org"},
-    {"id":"binary-labs","type":"org"},
-    {"id":"sprocket-games","type":"org"},
-    {"id":"power-house","type":"org"}
+    {"id":"avecchio","type":"user"}
   ];
 
   $.ajax({
