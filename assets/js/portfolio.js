@@ -32,7 +32,7 @@ app.controller('portfolioController',function($scope,$http){
 
   angular.forEach($scope.profiles, function(profile){
     var url = (profile.type=="user") ? "users/" : "orgs/";
-    url = "https://api.github.com/" + url + profile.id + "/repos"
+    url = "https://api.github.com/" + url + profile.id + "/repos?per_page=1000"
     $.ajax({
       url: url,
       async: false,
