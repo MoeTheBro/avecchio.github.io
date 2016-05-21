@@ -8,5 +8,55 @@ url: "http://github.com/avecchio"
 # Build settings
 include: ['_pages']
 relative_permalinks: false
+social:
+  asset_pipeline: /assets/images/social
+  facebook:
+    link: https://www.facebook.com/sparky912/
+    logo: /facebook/facebook-128.png
+  twitter:
+    link: https://twitter.com/au_vecchio
+    logo: /twitter/twitter-128.png
+  googleplus:
+    link: https://plus.google.com/u/0/104195218114901499296/posts
+    logo: /googleplus/googleplus-128.png
+  linkedin:
+    link: https://www.linkedin.com/in/austin-vecchio-597000112
+    logo: /linkedin/linkedin-128.png
+  youtube:
+    link: https://www.youtube.com/channel/UCzTmxNT1JqHhdB6Ofdbalpw
+    logo: /youtube/youtube-128.png
+  flickr:
+    link: ''
+    logo: /flickr/flickr-128.png
+  spotify:
+    link: http://open.spotify.com/user/professor-tophat
+    logo: /spotify/spotify-128.png
+  deviantart:
+    link: ''
+    logo: /deviantart/deviantart-128.png
+  steam:
+    link: http://steamcommunity.com/profiles/76561198303112111/
+    logo: /steam/steam-128.png
+  xbox:
+    link: ''
+    logo: /xbox/xbox-128.png
+  twitch:
+    link: http://www.twitch.tv/sparkysglitch/profile
+    logo: /twitch/twitch-128.png
+  goodreads:
+    link: ''
+    logo: /goodreads/goodreads-128.png
+  hackernews:
+    link: https://news.ycombinator.com/user?id=sparkysglitch
+    logo: /hackernews/hackernews-128.png
+  reddit:
+    link: https://www.reddit.com/user/sparkysglitch/
+    logo: /reddit/reddit-128.png
+  kickstarter:
+    link: https://www.kickstarter.com/profile/1809202118
+    logo: /kickstarter/kickstarter-128.png
+  stackoverflow:
+    link: http://stackoverflow.com/users/3310597/user3310597
+    logo: /stackoverflow/stackoverflow-128.png
 #redcarpet:
 #  extensions: []
