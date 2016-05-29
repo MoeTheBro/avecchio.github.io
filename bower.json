@@ -1,0 +1,18 @@
+{
+  "name": "avecchio.github.io",
+  "homepage": "https://github.com/avecchio/avecchio.github.io",
+  "authors": [
+    "au.vecchio@gmail.com"
+  ],
+  "description": "The website of Austin Vecchio",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
