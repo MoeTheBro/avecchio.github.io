@@ -67,12 +67,16 @@ body {
 }
 
 
+.skillset {
+  width: 40%;
+}
+
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
 .research {
-  max-width: 100% !important;
+  width: 100% !important;
 }
 .research .col-lg-4 {
   margin-bottom: 20px;
@@ -146,7 +150,7 @@ body {
 <div id="portfolio" ng-app="portfolioApp">
   <div ng-controller="portfolioController">
 
-    <div id="skills" class="headline">
+    <div id="skills" class="headline skillset">
       <span ng-repeat="skill in skills" data-toggle="tooltip" data-placement="top" title="[[skill]]">
         <span class="devicons devicons-[[skill]]"></span>
       </span>
