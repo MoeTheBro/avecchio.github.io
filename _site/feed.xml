@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tophat</title>
-    <description></description>
-    <link>http://github.com/avecchio/</link>
-    <atom:link href="http://github.com/avecchio/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Aug 2016 21:44:51 -0400</pubDate>
-    <lastBuildDate>Mon, 15 Aug 2016 21:44:51 -0400</lastBuildDate>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://avecchio.github.io/</link>
+    <atom:link href="http://avecchio.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 17 Aug 2016 20:51:57 -0400</pubDate>
+    <lastBuildDate>Wed, 17 Aug 2016 20:51:57 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -26,9 +27,9 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 21 Nov 2015 23:55:39 -0500</pubDate>
-        <link>http://github.com/avecchio/jekyll/update/2015/11/21/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://github.com/avecchio/jekyll/update/2015/11/21/welcome-to-jekyll.html</guid>
+        <pubDate>Wed, 17 Aug 2016 19:13:10 -0400</pubDate>
+        <link>http://avecchio.github.io/jekyll/update/2016/08/17/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://avecchio.github.io/jekyll/update/2016/08/17/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
