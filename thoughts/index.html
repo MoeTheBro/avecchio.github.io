@@ -6,15 +6,15 @@ layout: default
   <h1>Posts</h1>
 
   <ul class="posts">
-
-
-    {% for post in site.posts offset:1 limit:5 %%}
+    {% for post in site.posts %}
       <li>
-        <!--<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>-->
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <h4><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+        <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        <p>{{ post.description }}</p>
+        <br/>
+        <hr/>
       </li>
     {% endfor %}
-
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
