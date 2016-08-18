@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div id="quotes">
+  <div ng-app="storiesApp">
+    <div ng-controller="storiesController">
+      <div ng-repeat="whisper in whispers">
+        <p>[[whisper]]</p>
+        <hr>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="application/javascript" src="/assets/js/stories.js"></script>
