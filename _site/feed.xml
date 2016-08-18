@@ -6,9 +6,24 @@
 </description>
     <link>http://avecchio.github.io/</link>
     <atom:link href="http://avecchio.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Aug 2016 08:39:40 -0400</pubDate>
-    <lastBuildDate>Thu, 18 Aug 2016 08:39:40 -0400</lastBuildDate>
+    <pubDate>Thu, 18 Aug 2016 09:36:55 -0400</pubDate>
+    <lastBuildDate>Thu, 18 Aug 2016 09:36:55 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Being A Leader</title>
+        <description>&lt;p&gt;In a similar sense to how I started off the &lt;a href=&quot;&quot;&gt;Being Involved&lt;/a&gt; post,&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Aug 2016 00:00:00 -0400</pubDate>
+        <link>http://avecchio.github.io/jekyll/update/2016/08/18/leadership.html</link>
+        <guid isPermaLink="true">http://avecchio.github.io/jekyll/update/2016/08/18/leadership.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
